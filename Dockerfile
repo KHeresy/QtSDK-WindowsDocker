@@ -17,6 +17,3 @@ ENV QTDIR C:\Qt\5.13.1\msvc2017_64
 
 # clean download files
 RUN del C:\TEMP\* /q
-
-# Start developer command prompt with any other commands specified.
-ENTRYPOINT c:\BuildTools\VC\Auxiliary\Build\vcvarsall.bat x64 && 
